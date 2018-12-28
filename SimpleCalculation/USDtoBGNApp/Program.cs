@@ -10,7 +10,7 @@ namespace USDtoBGNApp
     {
         static void Main(string[] args)
         {
-            Console.Write("USD: ");
+            
             var usd = double.Parse(Console.ReadLine());
             var leva = usd * 1.79549;
 
